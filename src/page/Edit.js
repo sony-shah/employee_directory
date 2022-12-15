@@ -72,7 +72,7 @@ function Edit({ employees, selectedEmployee, setEmployees, setIsEditing,setIsOpe
           className='closeicon'>
         x</div>
    
-      <div className='small-container employee-form'>
+      <div className='employee-form'>
           <form onSubmit={handleEdit} >
               <h1>Update Employee</h1>
 
