@@ -125,20 +125,31 @@ caption {
 		background-color: rgba(0,0,0, 0.7);
 
 	.closeicon{
-		position: absolute;
-		top: 30px;
-		right: 3px;
-		font-size: 29px;
-		color: #f7f7f7;
-		background-color: #424242;
-		border-radius: 50%;
-		padding: 0px 10px;
+		    position: absolute;
+		    top: 10%;
+		    right: 20%;
+		    font-size: 29px;
+		    color: #f7f7f7;
+		    background-color: #424242;
+		    border-radius: 50%;
+		    padding: 0px 10px;
 	  }
 
 	.employee-form{
 		background-color: #ababab;
-		padding:20px ;
-		margin: 50px 20px;
+		   
+		    top: 0;
+		  
+		    max-width: 800px;
+		    justify-content: center;
+		    align-items: center;
+		    display: flex;
+		    margin: auto;
+		    width: 50%;
+		    border: 3px solid green;
+		    padding: 10px;
+		 
+		    margin-top: 80px;
 
 		form{
 			width: 100%;
