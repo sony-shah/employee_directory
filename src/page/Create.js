@@ -86,7 +86,7 @@ function Create({ employees, setEmployees, setIsAdding, props,setIsOpen }) {
           onClick={() => close()} 
           className='closeicon'>
         x</div>
-    <div className='small-container employee-form'>
+    <div className='employee-form'>
     
         <form onSubmit={handleAdd} >
             <h1>Add Employee</h1>
